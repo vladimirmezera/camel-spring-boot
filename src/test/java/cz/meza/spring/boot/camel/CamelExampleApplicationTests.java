@@ -1,4 +1,4 @@
-package cz.meza.spring.boot.camel.camelexample;
+package cz.meza.spring.boot.camel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
