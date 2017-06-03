@@ -26,10 +26,5 @@ public class RestRoute extends RouteBuilder {
                 .consumes(MediaType.TEXT_PLAIN_VALUE).produces(MediaType.TEXT_PLAIN_VALUE)
                 .get("/info").description("Get info").to("direct:getInfo");
 
-        from("direct:getInfo").process(exchange -> {
-            exchange.getIn().setBody("Basic information");
-        });
-         
-
     }
 }
