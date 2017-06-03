@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootCamelExampleEapp {
+public class SpringBootCamelExampleApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootCamelExampleEapp.class, args);
+		SpringApplication.run(SpringBootCamelExampleApp.class, args);
 	}
 }
