@@ -3,7 +3,7 @@ package cz.meza.spring.boot.camel.route;
 import org.apache.camel.builder.RouteBuilder;
 
 /**
- *  Dummry route
+ *  Dummy route
  */
 public class DummyRoute extends RouteBuilder {
     @Override
